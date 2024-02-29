@@ -1,0 +1,230 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    height: 100vh;
+    background-color: black;
+    padding: .5rem;
+}
+.sidebar{
+    background-color: rgb(0, 0, 0);
+    width: 340px;
+    border-radius: 1rem;
+}
+.main_content{
+    background-color: #121212;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+}
+.music_player{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    height: 70px;
+    width: 100%;
+}
+.nav_option{
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    border-radius: 1rem;
+    line-height: 2.5rem;
+    width: 90%;
+    margin: .3rem auto;
+    justify-content: center;
+    padding: .5rem .75rem;
+}
+.nav_option a{
+    text-decoration: none;
+    margin-left: .75rem;
+    font-size: 1rem;
+}
+.nav_option i{
+    font-size: 1.25rem;
+    margin-left: .25rem;
+}
+.nav_option div{
+    opacity: .7;
+}
+.nav_option div:hover{
+    opacity: 1;
+}
+.library{
+    background-color: #121212;
+    padding: .5rem .75rem;
+    width: 90%;
+    height: 64.5%;
+    border-radius: 1rem;
+    margin: .4rem auto;
+    align-items: center;
+}
+.lib_option img{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lib_option{
+    opacity: .7;
+}
+.lib_option a{
+    margin-left: .8rem;
+}
+.icons{
+    display: flex;
+}
+.icons i{
+    margin-right: .77rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    opacity: .7;
+}
+.icons i:hover{
+    opacity: 1;
+}
+.lib_option:hover{
+    opacity: 1;
+}
+.box1{
+    background-color: #232323;
+    height: 6.75rem;
+    width: 14rem;
+    margin: .85rem auto;
+    padding: 1rem 1.25rem;
+    border-radius: 1rem;
+}
+.boxp1{
+    margin-top: .25rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.boxp2{
+    font-size: .8rem;
+    opacity: .9;
+}
+.badge{
+    margin-top: 1.2rem;
+    padding: .5rem 1rem;
+    background-color: white;
+    border: none;
+    border-radius: 17px;
+    color: black;
+    font-weight: 700;
+}
+.box2{
+    background-color: #232323;
+    height: 8.75rem;
+    width: 14rem;
+    margin: 1rem auto;
+    padding: 1rem 1.25rem;
+    border-radius: 1rem;
+}
+.round{
+    background-color: black;
+    border-radius: 50%;
+    display: inline-grid;
+    justify-items: center;
+    align-items: center;
+    height: 1.85rem;
+    width: 1.85rem;
+    margin: 1.2rem .7rem 0 0;
+}
+.round i::before{
+    height: 1.25rem;
+    width: 1.25rem;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: .5rem;
+    z-index: 1;
+}
+.main_content{
+    margin-top: .3rem;
+    padding: 0 2rem;
+    background: linear-gradient(to bottom, #1a1a1a, #101010);
+
+}
+.sticky .sticky_user button{
+    margin-left: 1rem;
+}
+.sticky .sticky_user div{
+    margin-left: .3rem;
+}
+.badge i{
+    margin: .2rem .4rem 0 0;
+}
+.round:hover{
+    height: 2rem;
+    width: 2rem;
+}
+.sticky button:hover{
+    padding: .55rem 1.1rem;
+    border-radius: 17px;
+    font-weight: 740;
+}
+.song_menu{
+    margin-top: 1.2rem;
+}
+.card_box{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card_box .card{
+    width: 175px;
+    background-color: #232323;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem 2rem 1rem 0;
+    transition: background-color .5s ease-in-out;
+}
+.card_box .card:hover{
+    background-color: #3c3c3c;
+
+}
+.card_box img{
+    width: 100%;
+    border-radius: .6rem;
+}
+.card_box .cardp1{
+    margin-top: .4rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.card_box .cardp2{ 
+    margin-top: .2rem;
+    font-size: 1rem;
+    opacity: .85;
+}
+h2{
+    margin-top: .5rem;
+}
+p{
+    z-index: 0;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line{
+    border-top: 1px solid white;
+    width: 95%;
+    height: 40%;
+    opacity: .5;
+}
